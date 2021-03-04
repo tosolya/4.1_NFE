@@ -30,7 +30,7 @@ public class ProductRepositoryTest {
 
     }
 
-    @Test
+   /* @Test
     public void shouldRemoveNoExists() {
         repository.removeById(0);
 
@@ -39,7 +39,8 @@ public class ProductRepositoryTest {
 
         assertArrayEquals(expected, actual);
 
-    }
+    }*/
+
     @Test
     public void wrongInput() {
         Throwable exception = assertThrows(NotFoundException.class,
